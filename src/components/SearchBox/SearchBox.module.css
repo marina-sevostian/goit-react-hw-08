@@ -1,0 +1,41 @@
+.container {
+  padding-bottom: 30px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* align-items: start; */
+  align-items: center;
+  gap: 5px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  color: #006400;
+}
+.text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  margin-bottom: 7px;
+  margin-top: 10px;
+  color: darkgreen;
+}
+.icon {
+  margin-right: 5px;
+}
+.input {
+  width: 500px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  border-radius: 5px;
+  /* border: 1px solid rgb(33, 33, 33); */
+  border: 1px solid darkgreen;
+  background-color: rgb(230, 239, 209);
+}

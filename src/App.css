@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* background-color: rgba(59, 106, 176, 0.796); */
+  background-color: rgba(139, 176, 59, 0.796);
+}
+
+.title {
+  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  display: flex;
+  gap: 10px;
+  /* justify-content: start; */
+  justify-content: center;
+  align-items: center;
+  color: darkgreen;
+}
+/* .containerPhonebook {
+  border-radius: 20px;
+  background-color: rgb(209, 158, 221);
+} */
