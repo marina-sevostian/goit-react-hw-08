@@ -5,8 +5,8 @@ import ContactList from './components/ContactList/ContactList';
 import SearchBox from './components/SearchBox/SearchBox';
 import { MdContactPhone } from 'react-icons/md';
 import { useEffect } from 'react';
-import { fetchContacts } from './redux/contactsOps';
-import { selectError, selectLoading } from './redux/selectors';
+// import { fetchContacts } from './redux/contactsOps';
+// import { selectError, selectLoading } from './redux/selectors';
 import Loader from './components/Loader/Loader';
 
 function App() {
