@@ -8,6 +8,7 @@ import SearchBox from '../../components/SearchBox/SearchBox';
 import { fetchContacts } from '../../redux/contacts/operations';
 import { selectError, selectLoading } from '../../redux/contacts/selectors';
 import s from './ContactsPage.module.css';
+import { Toaster } from 'react-hot-toast';
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
@@ -26,6 +27,7 @@ const ContactsPage = () => {
         </h1>
         <ContactForm />
         <SearchBox />
+        <Toaster position="top-right" />
         {isLoading && !isError && <Loader />}
         <ContactList />
       </div>
