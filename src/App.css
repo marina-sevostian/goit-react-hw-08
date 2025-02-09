@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
   /* background-color: rgba(59, 106, 176, 0.796); */
-  background-color: rgba(139, 176, 59, 0.796);
+  background-color: #8bb03bcb;
 }
 
 .title {
@@ -25,3 +25,11 @@
   border-radius: 20px;
   background-color: rgb(209, 158, 221);
 } */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -1;
+}

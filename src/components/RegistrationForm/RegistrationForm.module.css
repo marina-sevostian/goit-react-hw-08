@@ -97,6 +97,6 @@
 .btnRegister:hover,
 .btnRegister:focus {
   background-color: rgba(88, 113, 34);
-  box-shadow: 0 1px 10px 0 darkgreen;
-  color: wheat;
+  box-shadow: 0 1px 10px 0 #006400;
+  color: #f5deb3;
 }
