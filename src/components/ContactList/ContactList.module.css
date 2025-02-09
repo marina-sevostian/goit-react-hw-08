@@ -5,7 +5,10 @@
 }
 .contactItem {
   border-radius: 5px;
-  border: 1px solid darkgreen;
+  /* border: 1px solid darkgreen; */
+  box-shadow: 0 4px 20px rgba(247, 240, 240, 0.5);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(10, 13, 23, 0.05);
   width: 300px;
   padding: 12px 14px;
 }

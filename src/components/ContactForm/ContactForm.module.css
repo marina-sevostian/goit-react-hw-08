@@ -12,8 +12,11 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
+  /* border: 2px solid darkgreen; */
+  box-shadow: 0 4px 20px rgba(247, 240, 240, 0.5);
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(10, 13, 23, 0.05);
   border-radius: 20px;
-  border: 2px solid darkgreen;
   padding: 20px;
   /* background-color: rgba(219, 173, 229, 0.9); */
 }

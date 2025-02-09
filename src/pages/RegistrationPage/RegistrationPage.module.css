@@ -1,0 +1,60 @@
+.wrapRegister {
+  display: inline-flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+  min-height: 465px;
+  box-shadow: 0 4px 20px rgba(247, 240, 240, 0.5);
+}
+
+.boxRegister {
+  background-color: rgba(255, 255, 255, 0.04);
+  width: 700px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #006400;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #006400;
+  margin-bottom: 30px;
+}
+
+.welcome {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: wheat;
+  margin-bottom: 40px;
+}
+
+.linkLogin {
+  font-weight: 500;
+  color: wheat;
+  text-decoration: none;
+}
+
+.linkLogin:hover,
+.linkLogin:focus {
+  color: rgba(88, 113, 34, 0.8);
+}

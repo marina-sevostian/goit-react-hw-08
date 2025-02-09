@@ -1,0 +1,19 @@
+.title {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #006400;
+}
+
+/* .containerPhonebook {
+  background-color: rgba(139, 176, 59, 0.796);
+  border-radius: 20px;
+  border: 2px solid darkgreen;
+  padding: 40px 41px;
+} */

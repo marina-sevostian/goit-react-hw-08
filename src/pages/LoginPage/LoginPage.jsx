@@ -6,6 +6,7 @@ const LoginPage = () => {
   return (
     <div className={s.wrapLogin}>
       <div className={s.boxLogin}>
+        <p className={s.welcome}>Welcome back! It’s great to have you here! </p>
         <h2 className={s.title}>Login</h2>
         <p className={s.text}>Please login to your account.</p>
         <LoginForm />
@@ -14,13 +15,6 @@ const LoginPage = () => {
           <Link className={s.linkRegister} to="/register">
             Register
           </Link>
-        </p>
-      </div>
-      <div className={s.boxWelcome}>
-        <h2 className={s.titleWelcome}>Welcome back</h2>
-        <p className={s.discr}>
-          It’s great to have you here! Log in to access your account and get
-          back to where you left off.
         </p>
       </div>
     </div>
